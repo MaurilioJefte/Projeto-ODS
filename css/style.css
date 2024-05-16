@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    background: #f1f1f1;
+}
+
+header {
+    text-align: center;
+    background-color: #316bbe;
+    padding: 30px;
+}
+
+header h1 {
+    font-size: 40px;
+    color: white;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: rgb(202, 255, 252);
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+}
+
+nav li {
+    float: left
+
+}
+
+nav a:hover {
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+
+img {
+    width: 100%;
+}
+
+.row {
+    padding: 0 20px;
+    display: table;
+
+}
+
+section {
+    float: left;
+    width: 75%;
+}
+
+aside {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+    
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+  
+}
+
+footer {
+    padding: 20px;
+    background: #316bbe;
+    color: white;
+    margin-top: 20px;
+    display: table;
+    width: 100%;
+}
+
+footer dt {
+    font-weight: bold;
+}
+
+footer dd {
+    margin-left: 0;
+}
+
+footer dl {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+@media screen and (max-width: 768px) {
+    section, aside {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    nav li {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+}
